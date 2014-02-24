@@ -1,0 +1,10 @@
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+set foldmethod=indent
+set foldlevel=5
+filetype plugin indent on
+syntax enable
+
+"pdb setting : insert pdb breakpoints
