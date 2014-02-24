@@ -1,0 +1,24 @@
+[ui]
+username = Jakub Repicky <repicky.jakub@ifortuna.cz>
+verbose = True
+merge = meld
+
+[merge-tools]
+meld.priority = 1
+meld.premerge = False
+meld.args = $local $base $other
+
+[merge-patterns]
+** = meld
+
+[extensions]
+color =
+mq =
+largefiles =
+bookmarks =
+graphlog =
+shelve =
+rebase =
+
+[bookmarks]
+track.current = True
