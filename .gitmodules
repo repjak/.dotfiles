@@ -31,3 +31,6 @@
 [submodule ".vim/bundle/minibufexpl"]
 	path = .vim/bundle/minibufexpl
 	url = https://github.com/sontek/minibufexpl.vim.git
+[submodule ".vim/bundle/robotframework-vim"]
+	path = .vim/bundle/robotframework-vim
+	url = https://github.com/mfukar/robotframework-vim.git
