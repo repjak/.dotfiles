@@ -22,3 +22,6 @@ rebase =
 
 [bookmarks]
 track.current = True
+
+[hook]
+pretxncommit.whitespace = hg export tip | (! egrep -q '^\+.*[ \t]$')
