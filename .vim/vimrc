@@ -41,3 +41,6 @@ augroup resCur
 	autocmd!
 	autocmd BufWinEnter * call ResCur()
 augroup END
+
+autocmd BufWritePre * :%s/\s\+$//e
+:set noswapfile
