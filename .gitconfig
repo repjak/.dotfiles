@@ -1,0 +1,25 @@
+[user]
+	name = <FILL_ME>
+	email = <FILL_ME>
+[diff]
+	tool = meld
+[alias]
+	df = difftool
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+[difftool]
+	prompt = true
+[color]
+	ui = true
+[merge]
+	tool = meld
+[branch]
+	autosetuprebase = always
+[push]
+	default = matching
+[core]
+	autocrlf = input
+[credential]
+	helper = cache
